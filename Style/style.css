@@ -30,6 +30,7 @@
 .navlinks ul li a{
     text-decoration: none;
     color: #343434;
+    transition: all 2s;
 }
 .hero {
   width: 100%;
@@ -140,6 +141,7 @@ h1{
     background-color: #002D69;
     color: #ffffff;
     height: 42px;
+    transition: background-color 2s;
 }
 .reviews{
     padding-top: 80px;
@@ -191,6 +193,7 @@ h1{
     margin-top: 40px;
     background-color: #002D69;
     color: #ffffff;
+    transition: all 2s;
 }
 .serv .photo{
     display: flex;
@@ -240,6 +243,7 @@ h1{
     background-color: #002D69;
     color: #ffffff;
     height: 42px;
+    transition: all 2s;
 }
 .quicklinks{
     width: 40%;
@@ -285,11 +289,10 @@ hr{
     text-decoration: none;
     color: #000000;
     font-size: 28px;
+    transition: all 1s;
 }
 a:hover{
     color: #002D69;
-    border: 1px solid #002D69;
-    border-radius: 12px;
     padding: 10px;
 }
 button:hover{
